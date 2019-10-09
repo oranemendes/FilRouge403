@@ -1,0 +1,27 @@
+
+<ion-toolbar color="primary" *ngIf="images.length < 1">
+    <ion-button fill="clear" expand="full" color="light" (click)="selectImage()" [disabled]="images.length > 0">
+        <ion-icon slot="start" name="camera"></ion-icon>
+        Selectionnez un média
+    </ion-button>
+</ion-toolbar>
+
+<ion-toolbar color="secondary" *ngIf="images.length === 1">
+    <ion-button fill="clear" expand="full" color="light" (click)="startUpload(images[0])">
+        <ion-icon slot="start" name="download"></ion-icon>
+        Envoyer
+    </ion-button>
+</ion-toolbar>
+
+<ion-list>
+    <ion-item *ngFor="let img of images; index as pos" text-wrap>
+        <ion-thumbnail slot="start">
+            <ion-img [src]="img.path"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+            {{ img.name }}
+        </ion-label>
+    </ion-item>
+</ion-list>
+
+

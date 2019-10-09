@@ -1,0 +1,30 @@
+
+<!--  map view-->
+  <section id="map-preview" class="shadow">
+      <app-map-comp [geolocate]="geolocate"
+                    [pointsHouses]="[ref]"
+                    [clickPopup]="false"
+                    [clickCoordinate]="clickCoordinate"
+                    (coordinate)="onGetMapCoordinate($event)">
+      </app-map-comp>
+  </section>
+
+<!--  create course -->
+<ion-button expand="full" routerLink="/map/{{lat}}/{{lng}}" routerDirection="forward" [disabled]="!lat || !lng" *ngIf="!adminState">
+<ion-icon name="walk" slot="start"></ion-icon>
+  <small>Crée un itinéraire vers cette maison</small>
+<!-- TODO : Désactiver la création d'itinéraire si pas de géolocation -->
+</ion-button>
+
+<!-- edit point -->
+<ion-label *ngIf="adminState && clickCoordinate">Placer votre repère sur la carte</ion-label>
+
+<ion-button [expand]="clickCoordinate ? '':'full' "  *ngIf="adminState" (click)="onEditMap('edit')">
+    <ion-icon name="sync" slot="start"></ion-icon>
+    <small *ngIf="!clickCoordinate">Modifier coordonées</small>
+    <small *ngIf="clickCoordinate">Valider</small>
+</ion-button>
+<ion-button  *ngIf="adminState && clickCoordinate" (click)="onEditMap('cancel')">
+    <ion-icon name="sync" slot="start"></ion-icon>
+    <small>Annuler</small>
+</ion-button>

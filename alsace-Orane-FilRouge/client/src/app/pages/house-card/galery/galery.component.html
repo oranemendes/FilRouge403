@@ -1,0 +1,30 @@
+
+
+<ion-slides class="swiper-wrapper" #slides>
+    <ion-slide class="swiper-slide w-100 h-100" *ngIf="medias.length === 0">
+        <div class="no-img"></div>
+    </ion-slide>
+    <ion-slide class="swiper-slide" *ngFor="let media of medias; let i = index" >
+        <ion-img data-src="{{ domain }}/media/{{ref}}/{{media.fileName}}" class="swiper-lazy" (click)="onModalViewer(media.fileName)"></ion-img>
+        <div class=" swiper-lazy-preloader-white"></div>
+        <div class="img-slide">{{ media.mediaDate }}</div>
+        <!-- delete button -->
+        <ion-button color="primary" class="rm-btn" *ngIf="adminState" (click)="onRemovePic(media.fileName, i)">
+            <ion-icon name="remove-circle-outline"></ion-icon>
+        </ion-button>
+    </ion-slide>
+
+</ion-slides>
+
+<!-- Add Pagination -->
+<div *ngIf="medias.length > 1" class="swiper-pagination swiper-pagination-white"></div>
+
+<!-- Navigation -->
+<div *ngIf="medias.length > 1" class="swiper-button-prev  swiper-button-white" (click)="onSlidePrev()"></div>
+<div *ngIf="medias.length > 1" class="swiper-button-next  swiper-button-white" (click)="onSlideNext()"></div>
+
+
+<!-- Add button -->
+<ion-button color="primary" class="add-btn" *ngIf="adminState" routerLink="/upload/{{ ref }}/{{ medias.length + 1 }}" routerDirection="forward">
+    <ion-icon name="add-circle-outline"></ion-icon>
+</ion-button>

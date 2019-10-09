@@ -1,0 +1,15 @@
+<!-- INPUT FILE -->
+<div class="form-group border rounded input-group-top">
+
+    <label for="justifFormControlFile1" class="pl-3">Justificatif <small>(Format autorisés: .jpg .jpeg .png .pdf)</small></label>
+
+    <input type="file"
+           name="photo"
+           class="form-control-file border-0 rounded-0"
+           id="justifFormControlFile1"
+           ng2FileSelect [uploader]="uploader"
+           (change)="getFileName()"
+           [accept]="allowedMimeType">
+
+    <ion-button (click)="onRequestSubmit()">Envoyer</ion-button>
+</div>

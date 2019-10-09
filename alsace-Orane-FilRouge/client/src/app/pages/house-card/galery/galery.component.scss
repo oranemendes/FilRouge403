@@ -1,0 +1,79 @@
+.no-img {
+  background-image: url('../../../../assets/img/no-image.jpg');
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+
+.window-slide {
+  height: 100%;
+  //opacity: 0.5;
+}
+
+.add-btn {
+  position: absolute;
+  top: 2px;
+  right: 3px;
+  z-index: 999;
+}
+
+.rm-btn {
+  position: absolute;
+  bottom: 0px;
+  right: 3px;
+  z-index: 999;
+}
+
+.window-info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  z-index: 99;
+}
+
+#anneeActuel {
+  text-align: center;
+}
+
+
+.img-slide{
+  background-color: black;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 15px;
+  color: white;
+
+}
+
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #000;
+}
+.swiper-slide img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+

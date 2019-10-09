@@ -1,0 +1,83 @@
+<ion-header>
+  <app-page-header [title]="'Nouvelle maison'"></app-page-header>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="form" (ngSubmit)="onSubmitForm()" >
+    <ion-grid>
+      <ion-row color="primary" justify-content-center="">
+        <ion-col align-self-center="" sizeMd="6" sizeLg="10" sizeXs="12">
+
+            <h3>Ajouter une nouvelle maisons</h3>
+
+            <!-- INPUT CITY -->
+            <ion-label padding="">Ville *</ion-label>
+            <ion-item >
+              <ion-input formControlName="city"  class="form-control" type="text" required="" ></ion-input>
+            </ion-item>
+            <ng-container *ngFor="let validation of validationMessages.city ">
+              <div class="alert-danger text-center" *ngIf="form.get('city').hasError(validation.type)">
+                  <ion-icon name="warning" slot="start" padding-end=""></ion-icon>
+                  <small>{{validation.message}}</small>
+              </div>
+            </ng-container>
+
+
+            <!-- SEGMENT -->
+            <ion-label padding="">Veuillez saisir soit une rue, soit une position sur la carte *</ion-label>
+            <ion-segment (ionChange)="onSegmentChanged($event)">
+                <ion-segment-button value="0">
+                    <ion-label>Rue</ion-label>
+                </ion-segment-button>
+                <ion-segment-button value="1" checked="">
+                    <ion-label>carte</ion-label>
+                </ion-segment-button>
+            </ion-segment>
+
+            <!-- SLIDER -->
+            <ion-slides #slides [options]="slideOpts">
+
+                <ion-slide class="d-flex flex-column">
+                    <!-- INPUT STREET -->
+                    <ion-label>Rue</ion-label>
+                    <ion-item class="w-100">
+                        <ion-input formControlName="street" class="form-control" type="text"></ion-input>
+                    </ion-item>
+                    <ng-container *ngFor="let validation of validationMessages.street ">
+                        <div class="alert-danger text-center w-100" *ngIf="form.get('street').hasError(validation.type)">
+                            <ion-icon name="warning" slot="start" padding-end=""></ion-icon>
+                            <small>{{validation.message}}</small>
+                        </div>
+                    </ng-container>
+                </ion-slide>
+
+                <ion-slide class="d-flex flex-column">
+                    <!-- MAP -->
+                    <section id="map-preview" class="shadow">
+                        <app-map-comp [geolocate]="true" [clickCoordinate]="true" [pointsHouses]="" (coordinate)="onGetMapCoordinate($event)"></app-map-comp>
+                    </section>
+                    <ng-container *ngFor="let validation of validationMessages.lat " >
+                        <div class="alert-danger text-center" *ngIf="form.get('lat').hasError(validation.type)">
+                            <ion-icon name="warning" slot="start" padding-end=""></ion-icon>
+                            <small>{{validation.message}}</small>
+                        </div>
+                    </ng-container>
+                    <ion-button *ngIf="form.get('lat').valid" expand="block" (click)="onClearMapCoordinate()">Effacer coordonées</ion-button>
+                    <ion-input formControlName="lat" class="d-none" type="number"></ion-input>
+                    <ion-input formControlName="lng" class="d-none"  type="number"></ion-input>
+                </ion-slide>
+
+            </ion-slides>
+
+            <!-- SUBMIT BUTTON -->
+            <ion-button size="large" type="submit" [disabled]="form.invalid" expand="block">Ajouter</ion-button>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>
+
+<ion-footer>
+  <app-page-footer></app-page-footer>
+</ion-footer>

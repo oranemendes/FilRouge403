@@ -1,0 +1,715 @@
+{
+  "total_rows": 17,
+  "offset": 0,
+  "rows": [
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b000de3",
+      "key": "3e3eae8dee67d1a1f515fd1d6b000de3",
+      "value": {
+        "rev": "27-7884e21b9c15d7d0e8fa6fc178b4c385"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b000de3",
+        "_rev": "27-7884e21b9c15d7d0e8fa6fc178b4c385",
+        "ref": "ZIMMERSHEIM_001",
+        "coordN": "47.750839",
+        "coordE": "7.335888",
+        "locality": "Zimmersheim",
+        "type": "Maison renaissance à pan-de-bois",
+        "description": "Maison du charpentier Hans Jost Koch de Willisau (CH), comme nous l'apprend le cartouche du linteau de fenêtre de la Stube. Elle présente un remarquable décor gravé sur les poteaux principaux des façades sur rue et sur cour (Nord et Est), unique dans le Sundgau, mais qui se rapproche de décors sculptés visibles dans le canton de Lucerne (CH) dont était originaire Hans Jost Koch.",
+        "constructionDate": "1665(d, i)",
+        "projectManager": "Hans Jost KOCH",
+        "owner": "Hans Jost KOCH",
+        "materials": "pan-de-bois (chêne, sapin), moellons, calcaire, torchis",
+        "other": "",
+        "_attachments": {
+          "zimmersheim001-2019-photo-4.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 25,
+            "digest": "md5-K2NbTwMHS+943WtZmGEhHA==",
+            "length": 61962,
+            "stub": true
+          },
+          "zimmersheim001-2019-photo-3.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 22,
+            "digest": "md5-YwRSenWFiZhwH9IR5rubhw==",
+            "length": 541715,
+            "stub": true
+          },
+          "zimmersheim001-2019-photo-1.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 17,
+            "digest": "md5-HheifgF23ur+2mNVE5jS4g==",
+            "length": 278968,
+            "stub": true
+          },
+          "R4303D-2.pdf": {
+            "content_type": "application/pdf",
+            "revpos": 8,
+            "digest": "md5-EmRdiuee1c2+RFxYnYiBZg==",
+            "length": 284623,
+            "stub": true
+          },
+          "04-restitution des façades Nord et Est.pdf": {
+            "content_type": "application/pdf",
+            "revpos": 4,
+            "digest": "md5-SU7DKKpreFcVxhwrfSioiA==",
+            "length": 257401,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b003d98",
+      "key": "3e3eae8dee67d1a1f515fd1d6b003d98",
+      "value": {
+        "rev": "17-f4a16881345a2fdb3509cb5f45123c6e"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b003d98",
+        "_rev": "17-f4a16881345a2fdb3509cb5f45123c6e",
+        "ref": "ZIMMERSHEIM_002",
+        "coordN": "47.740839",
+        "coordE": "7.345888",
+        "locality": "Zimmersheim",
+        "type": "Maison renaissance à pan-de-bois",
+        "description": "Maison vigneronne à pan-de-bois sur cave en maçonneie de moellons. Possède une fenêtre à 3 compartiments sur le pignon, portant en linteau une date et les noms des maîtres d'ouvrage.",
+        "constructionDate": "1687(i)",
+        "projectManager": "",
+        "owner": "Claus BAUMANN, Catharina BISCHERIN",
+        "materials": "pan-de-bois, moellons calcaire, torchis",
+        "other": "",
+        "_attachments": {
+          "zimmersheim002-2019-plan-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 14,
+            "digest": "md5-FSjeCKyyrvAQjTv78qMU6w==",
+            "length": 38772,
+            "stub": true
+          },
+          "zimmersheim002-2019-photo-3.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 13,
+            "digest": "md5-WYgrBG0c+O09E+UwNrxXSw==",
+            "length": 76594,
+            "stub": true
+          },
+          "zimmersheim002-2019-photo-2.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 12,
+            "digest": "md5-ApLVW40CV2acGfG/Nz77Fg==",
+            "length": 439955,
+            "stub": true
+          },
+          "zimmersheim002-2019-photo-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 11,
+            "digest": "md5-UmEUyQ8FWKt6ux5EFTB+Vw==",
+            "length": 60362,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b00579d",
+      "key": "3e3eae8dee67d1a1f515fd1d6b00579d",
+      "value": {
+        "rev": "12-1aaf332a2038cde8c43c6a90ec0d90f3"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b00579d",
+        "_rev": "12-1aaf332a2038cde8c43c6a90ec0d90f3",
+        "ref": "ZIMMERSHEIM_003",
+        "coordN": "47.730839",
+        "coordE": "7.345888",
+        "locality": "Zimmersheim",
+        "type": "Bâtiment de production, habitation",
+        "description": "Ancienne tuilerie de Zimmersheim. Détruite.",
+        "constructionDate": "ND",
+        "projectManager": "",
+        "owner": "",
+        "materials": "pan-de-bois, maçonnerie de briques de gterre cuite",
+        "other": "",
+        "_attachments": {
+          "zimmersheim003-2019-photo-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 11,
+            "digest": "md5-JIR9KjXn1xi6uaqJPnJVHw==",
+            "length": 74805,
+            "stub": true
+          },
+          "zimmersheim003-2019-photo-2.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 10,
+            "digest": "md5-Exbn7HoZ25KiUAkcSrJdug==",
+            "length": 148573,
+            "stub": true
+          },
+          "zimmersheim003-1960-photo-3.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 9,
+            "digest": "md5-Jq85iL/7niS1Jv3fpujjnw==",
+            "length": 65366,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b007bc4",
+      "key": "3e3eae8dee67d1a1f515fd1d6b007bc4",
+      "value": {
+        "rev": "8-0afddddee048579bed460d0bb1221fb6"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b007bc4",
+        "_rev": "8-0afddddee048579bed460d0bb1221fb6",
+        "ref": "ESCHENTZWILLER_001",
+        "coordN": "47.790839",
+        "coordE": "7.305888",
+        "locality": "Eschentzwiller",
+        "type": "Maison renaissance en pierres",
+        "description": "Maison initialement de 3 travées, prolongée d'une travée à l'arrière. R+1+3 combles. Rdc à usage de cave, certainement viticole à l'origine. Datée sur le linteau de la fenêtre droite du premier niveau de comble.",
+        "constructionDate": "1620(i)",
+        "projectManager": "",
+        "owner": "",
+        "materials": "maçonnerie de moellons calcaires",
+        "other": "",
+        "_attachments": {
+          "eschentzwiller001-2019-photo-1.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 7,
+            "digest": "md5-6+KtPSBQRYclQfXx1yJ8Tg==",
+            "length": 317150,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b009320",
+      "key": "3e3eae8dee67d1a1f515fd1d6b009320",
+      "value": {
+        "rev": "7-ca837db9339c60c48ab85267b17f9992"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b009320",
+        "_rev": "7-ca837db9339c60c48ab85267b17f9992",
+        "ref": "SCHLIERBACH_001",
+        "coordN": "47.700839",
+        "coordE": "7.335888",
+        "locality": "Eschentzwiller",
+        "type": "Maison",
+        "description": "Maison à pan-de-bois démolie en 1983, transférée à l'Ecomusée d'Alsace. Assemblages à mi-bois et queue d'aronde.",
+        "constructionDate": "1529(d)",
+        "projectManager": "",
+        "owner": "",
+        "materials": "pan-de-bois, torchis",
+        "other": "",
+        "_attachments": {
+          "schlierbach001-1983-photo-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 5,
+            "digest": "md5-w9wTgNrhP7aPlVG3XAUfVA==",
+            "length": 160055,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b00b0a9",
+      "key": "3e3eae8dee67d1a1f515fd1d6b00b0a9",
+      "value": {
+        "rev": "9-8182cb8e4d7ce19ef83a14d6b3811485"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b00b0a9",
+        "_rev": "9-8182cb8e4d7ce19ef83a14d6b3811485",
+        "ref": "SCHLIERBACH_002",
+        "coordN": "47.750839",
+        "coordE": "7.385888",
+        "locality": "Schlierbach",
+        "type": "Maison",
+        "description": "Maison à pan-de-bois hourdé de torchis présentant une galerie à registre de croix et un petit losange barré dans le triangle supérieur du pignon.",
+        "constructionDate": "XVIIIe s.",
+        "projectManager": "",
+        "owner": "",
+        "materials": "pan-de-bois, torchis",
+        "other": "",
+        "_attachments": {
+          "schlierbach002-2019-photo-2.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 9,
+            "digest": "md5-dljAddGNo/42h9kX93uB0g==",
+            "length": 411225,
+            "stub": true
+          },
+          "schlierbach002-2019-photo-1.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 8,
+            "digest": "md5-6KkI5ITBr9dmyh2BZKRa+w==",
+            "length": 401216,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b00baea",
+      "key": "3e3eae8dee67d1a1f515fd1d6b00baea",
+      "value": {
+        "rev": "13-28606e4c0b8c32dc091fc7dcd0f574cb"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b00baea",
+        "_rev": "13-28606e4c0b8c32dc091fc7dcd0f574cb",
+        "ref": "SCHLIERBACH_003",
+        "coordN": "47.650839",
+        "coordE": "7.395888",
+        "locality": "Schlierbach",
+        "type": "Ferme-cour",
+        "description": "Ensemble renaissance en pierres, reconstruit en grande partie au XXe s. Quelques encadrements avec linteaux \"en accolade\" conservés",
+        "constructionDate": "grange : 1561(i)",
+        "projectManager": "",
+        "owner": "",
+        "materials": "maçonnerie de moellons calcaire",
+        "other": "",
+        "_attachments": {
+          "schlierbach003-2019-photo-4.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 13,
+            "digest": "md5-Kg/MI1jJyZfNgQji7onfsA==",
+            "length": 571238,
+            "stub": true
+          },
+          "schlierbach003-2019-photo-3.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 12,
+            "digest": "md5-3yHSXs88h2/u2zUcZjlH9Q==",
+            "length": 333753,
+            "stub": true
+          },
+          "schlierbach003-2019-photo-2.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 11,
+            "digest": "md5-UnQijuAM2oPPr88sTwAvew==",
+            "length": 327240,
+            "stub": true
+          },
+          "schlierbach003-2019-photo-1.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 10,
+            "digest": "md5-kZT7sVzeNuge2X1EhEYlvQ==",
+            "length": 270988,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b00c7e0",
+      "key": "3e3eae8dee67d1a1f515fd1d6b00c7e0",
+      "value": {
+        "rev": "7-e24017c3aabdf54824f5acb6f3395157"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b00c7e0",
+        "_rev": "7-e24017c3aabdf54824f5acb6f3395157",
+        "ref": "RIXHEIM_001",
+        "coordN": "47.750839",
+        "coordE": "7.235888",
+        "locality": "Rixheim",
+        "type": "Maison renaissance à pan-de-bois",
+        "description": "Maison à pan-de-bois et colombage \"en épis\".",
+        "constructionDate": "ND",
+        "projectManager": "",
+        "owner": "",
+        "materials": "pan-de-bois, maçonnerie",
+        "other": "",
+        "_attachments": {
+          "rixheim001-2019-photo-1.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 6,
+            "digest": "md5-iHQiA9yEoJrcJh2juA23TQ==",
+            "length": 217739,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b00d2f5",
+      "key": "3e3eae8dee67d1a1f515fd1d6b00d2f5",
+      "value": {
+        "rev": "13-23cf77a80d2b84a2484fb9f523f11654"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b00d2f5",
+        "_rev": "13-23cf77a80d2b84a2484fb9f523f11654",
+        "ref": "VIEUXFERRETTE_001",
+        "coordN": "47.790839",
+        "coordE": "7.395888",
+        "locality": "",
+        "type": "Maison renaissance à pan-de-bois",
+        "description": "Motifs pan-de-bois à grands losanges barrés. Porte une date sur le poteau cornier, suivi des noms des maîtres d'ouvrages, de l'inscription enigmatique \"GSMR\" et du nom du charpentier.",
+        "constructionDate": "1682(i)",
+        "projectManager": "Hans Jost KOCH",
+        "owner": "Jerg BICH, Maria HASBURGERIN",
+        "materials": "pan-de-bois, maçonnerie",
+        "other": "",
+        "_attachments": {
+          "vieuxferrette001-2019-photo-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 12,
+            "digest": "md5-5wxT7gFYQYDGGX7GKI+0iA==",
+            "length": 742633,
+            "stub": true
+          },
+          "vieuxferrette001-2019-photo-2.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 11,
+            "digest": "md5-1j9EQF7Cd+EtWDSz5+9umA==",
+            "length": 149709,
+            "stub": true
+          },
+          "vieuxferrette001-2019-photo-3.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 10,
+            "digest": "md5-P3y12pSREaKWWiK/7z+1sA==",
+            "length": 332775,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b00dcba",
+      "key": "3e3eae8dee67d1a1f515fd1d6b00dcba",
+      "value": {
+        "rev": "12-76f6ef97f841c200906778cc95e86987"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b00dcba",
+        "_rev": "12-76f6ef97f841c200906778cc95e86987",
+        "ref": "BLOTZHEIM_001",
+        "coordN": "47.780839",
+        "coordE": "7.365888",
+        "locality": "Inuyama/Blotzheim",
+        "type": "Ferme-cour",
+        "description": "Maison démolie en 1985. Tra,sférée et reconstruite au Japon dans l'Ecomusée mondial \"Little World\". Présente un registre de croix courbées une grande croix courbée centrale et un pan-de-bois \"en épis\".",
+        "constructionDate": "1582(d)",
+        "projectManager": "",
+        "owner": "",
+        "materials": "Reconstruite : pan-de-bois, maçonnerie",
+        "other": "http://www.marc-grodwohl.com/m%C3%A9moires-de-l%E2%80%99ecomus%C3%A9e-d%E2%80%99alsace/une-ferme-alsacienne-au-japon",
+        "_attachments": {
+          "blotzheim001-1985-carte-postale-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 11,
+            "digest": "md5-xo4l9Yqb+YjgeY64x2TQ9A==",
+            "length": 90362,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b00dfa9",
+      "key": "3e3eae8dee67d1a1f515fd1d6b00dfa9",
+      "value": {
+        "rev": "9-922bf516813073059c9cb513e54342d8"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b00dfa9",
+        "_rev": "9-922bf516813073059c9cb513e54342d8",
+        "ref": "BERENTZWILLER_001",
+        "coordN": "47.750839",
+        "coordE": "7.300888",
+        "locality": "Berentzwiller",
+        "type": "",
+        "description": "Maison \"Satter\", restaurant \"zur Krone\" (v. 1900), pan-de-bois \"en épis\".",
+        "constructionDate": "ND",
+        "projectManager": "",
+        "owner": "",
+        "materials": "pan-de-bois, maçonnerie",
+        "other": "",
+        "_attachments": {
+          "berentzwiller001-2012-photo-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 9,
+            "digest": "md5-YHb3Bl+fH3EdCxKrrFjh8g==",
+            "length": 215354,
+            "stub": true
+          },
+          "berentzwiller001-1900-photo-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 8,
+            "digest": "md5-wjH7Isnqmc82hRxE5S/tpw==",
+            "length": 362002,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b00fe96",
+      "key": "3e3eae8dee67d1a1f515fd1d6b00fe96",
+      "value": {
+        "rev": "19-961bfb366dfdbe73e89ae093431c34db"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b00fe96",
+        "_rev": "19-961bfb366dfdbe73e89ae093431c34db",
+        "ref": "LUEMSCHWILLER_001",
+        "coordN": "47.759839",
+        "coordE": "7.330888",
+        "locality": "Luemschwiller",
+        "type": "Maison renaissance en pierres",
+        "description": "Présente des chaînages à bossages et boulets sculptés, des portes cintrées à boulet, des encadrements de baies à meneaux et congés. L'accès principal se faisait à l'étage, par une coursive en bois disparue, dont il reste les corbeaux en pierre.",
+        "constructionDate": "1575(d, i)",
+        "projectManager": "",
+        "owner": "",
+        "materials": "maçonnerie de moellons calcaires",
+        "other": "",
+        "_attachments": {
+          "luemschwiller001-2019-photo-5.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 19,
+            "digest": "md5-5fKJd++wuTeqKjunyGixlw==",
+            "length": 273086,
+            "stub": true
+          },
+          "luemschwiller001-2019-photo-4.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 18,
+            "digest": "md5-LSsUSjXXJoFb9Zx5G+9eAQ==",
+            "length": 243423,
+            "stub": true
+          },
+          "luemschwiller001-2019-photo-3.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 16,
+            "digest": "md5-uJfUOE+svvLm2K0o9NL1eg==",
+            "length": 255366,
+            "stub": true
+          },
+          "luemschwiller001-2019-photo-2.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 15,
+            "digest": "md5-TuJHg6PV6VbawYAZJntD4Q==",
+            "length": 309377,
+            "stub": true
+          },
+          "luemschwiller001-2019-photo-1.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 14,
+            "digest": "md5-GI+xqrxLeIOXxRtRYzGhzA==",
+            "length": 278214,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b011d0c",
+      "key": "3e3eae8dee67d1a1f515fd1d6b011d0c",
+      "value": {
+        "rev": "11-787802903aa767fae8ee83c2827674d3"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b011d0c",
+        "_rev": "11-787802903aa767fae8ee83c2827674d3",
+        "ref": "LUTTER_001",
+        "coordN": "47.720839",
+        "coordE": "7.385888",
+        "locality": "Lutter",
+        "type": "Maison renaissance en pierres",
+        "description": "",
+        "constructionDate": "",
+        "projectManager": "",
+        "owner": "",
+        "materials": "Maçonnerie de moellons calcaires",
+        "other": "",
+        "_attachments": {
+          "lutter001-2019-plan-2.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 11,
+            "digest": "md5-RyR/gKbxiBKY99nZz+v1GA==",
+            "length": 168013,
+            "stub": true
+          },
+          "lutter001-2019-plan-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 10,
+            "digest": "md5-M8T79ZoLqqTUzSv3p1NJ4Q==",
+            "length": 155393,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b012bd1",
+      "key": "3e3eae8dee67d1a1f515fd1d6b012bd1",
+      "value": {
+        "rev": "7-2bf2a59e01765886c4f5e80154715dea"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b012bd1",
+        "_rev": "7-2bf2a59e01765886c4f5e80154715dea",
+        "ref": "OTTMARSHEIM_001",
+        "coordN": "47.770839",
+        "coordE": "7.355888",
+        "locality": "Ottmarsheim",
+        "type": "Maison renaissance à pan-de-bois",
+        "description": "Maison à pan-de-bois et colombage \"en épis\".",
+        "constructionDate": "ND",
+        "projectManager": "",
+        "owner": "",
+        "materials": "pan-de-bois, maçonnerie",
+        "other": "",
+        "_attachments": {
+          "ottmarsheim001-2019-photo-1.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 6,
+            "digest": "md5-1Sx2ZTMyoP9KzJX1lFO0Sw==",
+            "length": 268074,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b01416d",
+      "key": "3e3eae8dee67d1a1f515fd1d6b01416d",
+      "value": {
+        "rev": "7-b23b7c5d1c2dbd1e3f00d29098a3fe58"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b01416d",
+        "_rev": "7-b23b7c5d1c2dbd1e3f00d29098a3fe58",
+        "ref": "ECOMUSEE_001",
+        "coordN": "",
+        "coordE": "",
+        "locality": "Ecomusée / Hésingue",
+        "type": "Maison renaissance à pan-de-bois",
+        "description": "Maison à pan-de-bois à 3 nefs et colombage \"en épis\".",
+        "constructionDate": "1574(d)",
+        "projectManager": "",
+        "owner": "",
+        "materials": "Reconstruite : pan-de-bois, maçonnerie",
+        "other": "",
+        "_attachments": {
+          "ecomusee001-2019-photo-1.JPG": {
+            "content_type": "image/jpeg",
+            "revpos": 6,
+            "digest": "md5-eVsIWdlr9FdHbA+IqNJJDA==",
+            "length": 323416,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b015182",
+      "key": "3e3eae8dee67d1a1f515fd1d6b015182",
+      "value": {
+        "rev": "9-7ea37da6f5a63c81e9426ecfdb937f77"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b015182",
+        "_rev": "9-7ea37da6f5a63c81e9426ecfdb937f77",
+        "ref": "ECOMUSEE_002",
+        "coordN": "",
+        "coordE": "",
+        "locality": "Ecomusée / Schlierbach",
+        "type": "",
+        "description": "Maison de Schlierbach de 1529 transférée à l'Ecomusée en 1984. Reconstitution archéologique. Assemblages à mi-bois et queue d'aronde.",
+        "constructionDate": "1529(d)",
+        "projectManager": "",
+        "owner": "",
+        "materials": "Reconstruite : pan-de-bois, maçonnerie",
+        "other": "",
+        "_attachments": {
+          "ecomusee002-2019-photo-2.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 9,
+            "digest": "md5-Sd6oWpx6pFO6TAvKfKUBCQ==",
+            "length": 163275,
+            "stub": true
+          },
+          "ecomusee002-2019-photo-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 8,
+            "digest": "md5-c6g4Air0r6tK2N5ZEMr4Jg==",
+            "length": 174784,
+            "stub": true
+          }
+        }
+      }
+    },
+    {
+      "id": "3e3eae8dee67d1a1f515fd1d6b0169b0",
+      "key": "3e3eae8dee67d1a1f515fd1d6b0169b0",
+      "value": {
+        "rev": "20-74b6414a3f26e136fc25f47c30244b32"
+      },
+      "doc": {
+        "_id": "3e3eae8dee67d1a1f515fd1d6b0169b0",
+        "_rev": "20-74b6414a3f26e136fc25f47c30244b32",
+        "ref": "GUEMAR_001",
+        "coordN": "",
+        "coordE": "",
+        "locality": "Guémar",
+        "type": "Bâtiment de production, habitation",
+        "description": "Ancienne tuilerie de Guémar. Détruite.",
+        "constructionDate": "ND",
+        "projectManager": "",
+        "owner": "",
+        "materials": "pan-de-bois, maçonnerie de briques de terre cuite",
+        "other": "",
+        "_attachments": {
+          "guemar001-1990-photo-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 19,
+            "digest": "md5-aESDmQQYK4WeQJ3ukLdogA==",
+            "length": 218095,
+            "stub": true
+          },
+          "guemar001-1986-plan-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 18,
+            "digest": "md5-Xl2zM34UCfIN8StaRkJAdQ==",
+            "length": 329053,
+            "stub": true
+          },
+          "guemar001-1920-photo-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 17,
+            "digest": "md5-AUYz+9HgpKfgOHR6ZTx7lA==",
+            "length": 198999,
+            "stub": true
+          },
+          "guemar001-1919-photo-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 16,
+            "digest": "md5-y8Fw5QjHlxDX9BB2jJX2Tg==",
+            "length": 206816,
+            "stub": true
+          },
+          "guemar001-1917-photo-1.jpg": {
+            "content_type": "image/jpeg",
+            "revpos": 15,
+            "digest": "md5-TmGLxXDOVTg2Cczcsc6Mgg==",
+            "length": 195904,
+            "stub": true
+          }
+        }
+      }
+    }
+  ]
+}

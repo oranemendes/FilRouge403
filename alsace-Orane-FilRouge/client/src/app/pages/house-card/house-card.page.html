@@ -1,0 +1,52 @@
+<ion-header>
+    <app-page-header [title]="locality" ></app-page-header>
+</ion-header>
+
+<ion-content class="h-100">
+    <ion-grid class="h-100">
+        <ion-row color="primary" justify-content-center="" class="h-100">
+            <ion-col align-self-center="" sizeXs="12" sizeMd="10" sizeLg="6" class="h-100">
+
+            <ion-item class="rue">
+                    {{ street }}
+
+                </ion-item>
+                <!-- gallery -->
+                <ion-card class="h-35">
+                    <app-galery [ref]="ref" [inc]="inc"></app-galery>
+                </ion-card>
+
+                <!-- map -->
+                <ion-card class="h-35">
+                    <app-maping-house [ref]="ref" ></app-maping-house>
+                </ion-card>
+
+                <!-- detail -->
+                <ion-card>
+                    <ion-card-content class="accordion p-0" id="accordionDetail">
+                        <ion-button data-parent="#collapseDetail"
+                                    data-toggle="collapse"
+                                    data-target="#collapseDetail"
+                                    expand="block"
+                                    color="medium"
+                                    class="btn-collapse"
+                                    (click)="onClickCollapseDetail()"
+                        >
+                            <ion-icon name="add-circle-outline" class="icon-collapse" *ngIf="!collapseDetail"></ion-icon>
+                            <ion-icon name="remove-circle-outline" class="icon-collapse" *ngIf="collapseDetail"></ion-icon>
+                        </ion-button>
+                            <div id="collapseDetail" class="collapse p-2" aria-labelledby="headingOeuvre" data-parent="#accordionOeuvre">
+                                    <app-detail-house [ref]="ref"  [inc]="inc"></app-detail-house>
+                            </div>
+                    </ion-card-content>
+                </ion-card>
+
+
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
+
+<ion-footer>
+    <app-page-footer></app-page-footer>
+</ion-footer>

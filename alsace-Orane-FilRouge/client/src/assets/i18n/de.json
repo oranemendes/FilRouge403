@@ -1,0 +1,22 @@
+{
+  "all": {
+    "global": {
+      "menu": "Menü",
+      "accueil": "Homepage",
+      "carte": "Karte",
+      "recherche": "Suche",
+      "détail": "Detail des Hauses",
+      "association": "Des Verein",
+      "application": "Die Anwendung",
+      "contact": "Kontaktieren Sie uns"
+    },
+    "accueil": {
+    },
+    "houseCard": {
+    },
+    "map": {
+    },
+    "search": {
+    }
+  }
+}

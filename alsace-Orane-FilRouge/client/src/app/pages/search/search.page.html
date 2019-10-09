@@ -1,0 +1,40 @@
+<ion-header>
+    <app-page-header [title]="'Recherche'" [backButton]="false"></app-page-header>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <ion-grid>
+        <ion-row color="primary" justify-content-center="">
+            <ion-col align-self-center="" sizeXs="12" sizeMd="10" sizeLg="6" >
+
+                <!-- List result -->
+                <ion-list>
+                    <ion-item class="m-0 mt-2" *ngFor="let house of list; let i = index" routerLink="/house-card/{{house.ref}}" routerDirection="forward">
+                        {{ setImg('img_'+i, house) }}
+                        <label class="p-0 w-100">
+                            <div class="mb-2 pr-3 lastHouse "
+                                 [id]="'img_'+i"
+                                 routerLink="/house-card/{{house.ref}}"
+                                 routerDirection="forward">
+                                <div><ion-icon name="pin"></ion-icon> {{house.city}}</div>
+                            </div>
+                        </label>
+                    </ion-item>
+                </ion-list>
+
+                <!-- Infinite scroll event -->
+                <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData($event)" *ngIf="houseList.length > maxLenght">
+                    <ion-infinite-scroll-content
+                            loadingSpinner="bubbles"
+                            loadingText="Loading more data...">
+                    </ion-infinite-scroll-content>
+                </ion-infinite-scroll>
+
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
+
+<ion-footer>
+    <app-page-footer></app-page-footer>
+</ion-footer>

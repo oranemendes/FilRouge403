@@ -1,0 +1,71 @@
+<!-- splash screen loading -->
+<div *ngIf="showSplash" class="splash" >
+    <div id="loadingProgressG">
+        <div id="loadingProgressG_1" class="loadingProgressG"></div>
+    </div>
+</div>
+
+
+<!--<ion-nav routerLink='home'  swipeBackEnabled="false"></ion-nav>-->
+
+<!-- menu slider -->
+<ion-app>
+    <ion-menu contentId="content1" side="start">
+        <ion-header>
+            <ion-toolbar>
+                <ion-title>Menu</ion-title>
+                <ion-button slot="end" color="light" (click)="closeMenu()">
+                    <ion-icon name="arrow-round-back"></ion-icon>
+                </ion-button>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content>
+
+            <ion-item routerLink="/association" routerDirection="forward" (click)="closeMenu()">
+                <ion-icon name="hand" slot="start"></ion-icon>
+                {{ lgTrsl?.association }}
+            </ion-item>
+
+            <ion-item routerLink="/application" routerDirection="forward" (click)="closeMenu()">
+                <ion-icon name="phone-portrait" slot="start"></ion-icon>
+                {{ lgTrsl?.application }}
+            </ion-item>
+
+            <ion-item routerLink="/contact" routerDirection="forward" (click)="closeMenu()">
+                <ion-icon name="mail" slot="start"></ion-icon>
+                {{ lgTrsl?.contact }}
+            </ion-item>
+
+            <ion-item href="{{ domain }}/apk/app-release.apk" (click)="closeMenu()" *ngIf="!prodMode">
+                <ion-icon name="logo-android" slot="start"></ion-icon>
+                Android (apk)
+            </ion-item>
+
+            <ion-item (click)="adminToogle()" [color]="adminState ? 'success' : ''">
+                <ion-icon name="settings" slot="start"></ion-icon>
+                Administrator mode
+            </ion-item>
+
+            <ion-item routerLink="/new-house" routerDirection="forward" (click)="closeMenu()" *ngIf="adminState">
+                <ion-icon name="home" slot="start"></ion-icon>
+                Ajouter une maison
+            </ion-item>
+
+            <ion-item>
+                <ion-icon name="globe" slot="start"></ion-icon>
+                <ion-select [(ngModel)]="language"
+                            (ionChange)="onChangeLanguage()"
+                            placeholder="Choisir la langue"
+                            interface="action-sheet"
+                            class="lgSelect"
+                            id="lgSelect">
+                    <ion-select-option value="en">English</ion-select-option>
+                    <ion-select-option value="de">Deutsch</ion-select-option>
+                    <ion-select-option value="fr">Français</ion-select-option>
+                </ion-select>
+            </ion-item>
+        </ion-content>
+    </ion-menu>
+
+    <ion-router-outlet id="content1"></ion-router-outlet>
+</ion-app>

@@ -1,0 +1,48 @@
+<ion-header>
+    <app-page-header [title]="'Envoyer un média'"></app-page-header>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <ion-grid>
+        <ion-row color="primary" justify-content-center="">
+            <ion-col align-self-center="" sizeXs="12" sizeMd="10" sizeLg="6" >
+
+                <!-- formular -->
+                <form [formGroup]="form">
+
+                    <!-- media select -->
+                    <ion-item color="primary">
+                        <ion-label>Choisissez un média</ion-label>
+                    </ion-item>
+                    <ion-item>
+                        <ion-select value="photo" formControlName="category">
+                            <ion-select-option value="photo">Photo</ion-select-option>
+                            <ion-select-option value="document">Document</ion-select-option>
+                            <ion-select-option value="plan">Plan</ion-select-option>
+                            <ion-select-option value="autre">Autre</ion-select-option>
+                        </ion-select>
+                    </ion-item>
+
+                    <!-- date media input -->
+                    <ion-item color="primary">
+                        <ion-label>Saisissez l'année du média</ion-label>
+                    </ion-item>
+                    <ion-item>
+                        <ion-input formControlName="mediaDate" placeholder="année du média"></ion-input>
+                    </ion-item>
+
+                </form>
+
+                <!-- uploaders -->
+                <app-upload-browser *ngIf="!prodMode" [fileName]="fileName" (fileExt)="onFileExt($event)"></app-upload-browser>
+
+                <app-upload-modile *ngIf="prodMode" [fileName]="fileName" (fileExt)="onFileExt($event)" [inc]="inc"></app-upload-modile>
+
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
+
+<ion-footer>
+    <app-page-footer></app-page-footer>
+</ion-footer>

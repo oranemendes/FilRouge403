@@ -1,0 +1,18 @@
+<ion-tab-bar slot="bottom">
+
+    <ion-tab-button (click)="onRouterLink('home')" class="link" [ngClass]="{'active': url === 'HomePage'}">
+        <ion-label id="accueil">accueil</ion-label>
+        <ion-icon name="home"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="onRouterLink('map')" class="link" [ngClass]="{'active': url === 'MapPage'}">
+        <ion-label id="carte">carte</ion-label>
+        <ion-icon name="map"></ion-icon>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="onRouterLink('search')" class="link" [ngClass]="{'active': url === 'SearchPage'}">
+        <ion-label id="recherche">recherche</ion-label>
+        <ion-icon name="search"></ion-icon>
+    </ion-tab-button>
+
+</ion-tab-bar>

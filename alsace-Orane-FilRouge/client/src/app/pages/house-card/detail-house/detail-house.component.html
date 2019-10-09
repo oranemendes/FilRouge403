@@ -1,0 +1,43 @@
+<form [formGroup]="form" >
+
+    <!--DESCRIPTION-->
+    <div class="detail-content" *ngFor="let section of sections">
+        <div *ngIf="(house[section]?.value && house[section]?.show) || adminState">
+
+            <!-- Update button -->
+            <ion-button float-right="10px" color="white" (click)="showHideUpdate(section)" *ngIf="adminState">
+              <ion-icon name="create" ></ion-icon>
+            </ion-button>
+
+                <!-- Data section -->
+                <h1>{{ house[section]?.name }}</h1>
+                <div id="data-{{ section }}" class="data-info active">
+                {{ house[section]?.value }}
+                </div>
+
+            <!-- Update section -->
+            <div id="input-{{ section }}" class="input-info">
+
+                <!-- textareao if more 100 charactere -->
+                <ion-textarea *ngIf="house[section].length > maxLength" [formControlName]="section" rows="10"></ion-textarea>
+
+                <!-- input if less 100 charactere -->
+                <ion-row *ngIf="house[section].length <= maxLength">
+                    <ion-item>
+                      <ion-input [formControlName]="section"></ion-input>
+                    </ion-item>
+                </ion-row>
+
+                <!-- submit button -->
+                <ion-button class="card-button" color="secondary"  (click)="onSubmitInfo(section)"> <ion-icon name="add-circle" class="icona-bottone"></ion-icon>Modifier</ion-button>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+<!-- delete button -->
+<ion-button class="card-button" color="danger" expand="full" (click)="onDeleteHouse()" *ngIf="adminState">
+    <ion-icon name="trash" class="icona-bottone"></ion-icon>
+    Supprimer la maison
+</ion-button>

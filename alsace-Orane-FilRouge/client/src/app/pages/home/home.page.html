@@ -1,0 +1,48 @@
+<ion-header>
+    <app-page-header [title]="'Accueil'" [backButton]="false"></app-page-header>
+</ion-header>
+
+<ion-content>
+    <ion-grid>
+        <ion-row color="primary" justify-content-center="">
+            <ion-col align-self-center="" sizeXs="12" sizeMd="10" sizeLg="6" >
+                <section class="d-flex flex-column justify-content-between h-100">
+
+                    <!-- logo -->
+                    <section class="d-flex flex-column justify-content-center flex-fill">
+
+                        <ion-img src="assets/img/logo.png" style="height: 200px"></ion-img>
+                        <h1 class="text-center">
+                            Alsace
+                        </h1>
+
+                    </section>
+
+                    <!-- Search bar -->
+                    <ion-card>
+                        <ion-card-content class="d-flex justify-content-between bg-secondary">
+                            <ion-input placeholder="Rechercher dans une ville" class="text-white"></ion-input>
+                            <ion-button slot="end" color="medium" routerLink="/search" routerDirection="forward">
+                                <ion-icon name="search" class="h1 text-white m-0" ></ion-icon>
+                            </ion-button>
+                        </ion-card-content>
+                    </ion-card>
+
+                    <!-- map preview -->
+                    <section>
+                        <section id="map-preview" class="shadow">
+                            <app-map-comp [initViewGeolocate]="true" [zoom]="16"></app-map-comp>
+                        </section>
+                        <ion-button expand="full" disabled="true">Me proposer un itinéraire</ion-button>
+                    </section>
+
+
+                </section>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
+
+<ion-footer>
+    <app-page-footer></app-page-footer>
+</ion-footer>

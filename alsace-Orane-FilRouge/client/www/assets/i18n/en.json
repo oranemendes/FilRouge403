@@ -1,0 +1,22 @@
+{
+  "all": {
+    "global": {
+      "menu": "Menu",
+      "accueil": "Home",
+      "carte": "Map",
+      "recherche": "Research",
+      "détail": "Detail of the house",
+      "association": "The association",
+      "application": "The application",
+      "contact": "Contact us"
+    },
+    "accueil": {
+    },
+    "houseCard": {
+    },
+    "map": {
+    },
+    "search": {
+    }
+  }
+}

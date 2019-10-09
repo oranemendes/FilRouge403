@@ -1,0 +1,29 @@
+.detail-content {
+ margin: 20px 0;
+}
+
+ion-icon {
+  color: black;
+}
+
+.input-info {
+  display: none;
+}
+
+.input-info.active {
+  display: block;
+
+}
+
+ion-textarea{
+
+  height: 200px;
+}
+
+.data-info {
+  display: none;
+}
+
+.data-info.active {
+  display: block;
+}
