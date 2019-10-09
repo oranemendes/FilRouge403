@@ -3,7 +3,7 @@ sudo: false
 
 language: node_js
 node_js:
-  - "10"
+  - "12"
 
 addons:
   apt:
@@ -20,10 +20,6 @@ install:
   - npm install
 
 script:
-  - cd client
-  - ng test --watch=false --progress=false --browsers=ChromeHeadlessCI
-  - ng e2e --protractor-config=./e2e/protractor-ci.conf.js
-  - cd ..
   - npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
   - npm run e2e -- --protractor-config=e2e/protractor-ci.conf.js
 
