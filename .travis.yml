@@ -18,12 +18,11 @@ cache:
 
 install:
   - npm install
-  - npm install ng-common
-  - npm install -g @angular/cli
 
 script:
   - cd client
-  - ng test
+  - ng test --watch=false --progress=false --browsers=ChromeHeadlessCI
+  - ng e2e --protractor-config=./e2e/protractor-ci.conf.js
   - cd ..
   - npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
   - npm run e2e -- --protractor-config=e2e/protractor-ci.conf.js
