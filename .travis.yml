@@ -19,8 +19,7 @@ cache:
 install:
   - npm install
   - npm install -g @angular/cli
-  - npm install -g bower
-  - bower install ng-common
+  - npm install ng-common
 
 script:
   - cd client
