@@ -49,7 +49,7 @@
     "prestart": "npm run build",
     "start": "nodemon -e ts  --exec \"npm run myapp\"",
     "myapp": "tsc -p . && node ./dist/index.js",
-    "test": "mocha -r ts-node/register server/**/*.spec.ts",
+    "test": "mocha -r ts-node/register server/**/*.spec.ts | mocha -r ts-node/register client/src/app/component/page-content/page-footer/page-footer.component.spec.ts",
     "watch": "./*",
     "ext": "ts",
     "ignore": "./**/*.spec.ts"
