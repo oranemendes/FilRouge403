@@ -25,6 +25,8 @@ before_install:
   - sh -e /etc/init.d/xvfb start
   - npm install -g @angular/cli
   - npm install -g minimatch@3.0.2
+  - npm install
+  - npm install -g bower
   - npm install ng-common
 
 install:
