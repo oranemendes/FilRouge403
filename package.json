@@ -52,11 +52,11 @@
     "test": "mocha -r ts-node/register server/**/*.spec.ts | mocha -r ts-node/register client/**/*.spec.ts",
     "watch": "./*",
     "ext": "ts",
-    "ignore": ""
+    "ignore": "./**/*.spec.ts"
   },
   "nodemonConfig": {
     "ignore": [
-
+      "./client/"
     ]
   },
   "author": "",
