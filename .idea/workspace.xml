@@ -60,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/node_modules/karma-chrome-launcher/examples/simple/karma.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="232">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -101,10 +101,10 @@
         <option value="$PROJECT_DIR$/client/e2e/protractor-ci.conf.js" />
         <option value="$PROJECT_DIR$/client/src/app/components/map/map.component.html" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/client/node_modules/karma-chrome-launcher/examples/simple/karma.conf.js" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/client/src/app/services/upload/upload.service.spec.ts" />
         <option value="$PROJECT_DIR$/client/src/app/pages/new-house/new-house.page.spec.ts" />
+        <option value="$PROJECT_DIR$/client/node_modules/karma-chrome-launcher/examples/simple/karma.conf.js" />
       </list>
     </option>
   </component>
@@ -248,12 +248,12 @@
       <updated>1570621353658</updated>
       <workItem from="1570621355006" duration="10916000" />
       <workItem from="1570886290434" duration="13000" />
-      <workItem from="1571056116447" duration="1225000" />
+      <workItem from="1571056116447" duration="1428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12154000" />
+    <option name="totallyTimeSpent" value="12357000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,7 +266,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -445,8 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/node_modules/karma-chrome-launcher/examples/simple/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="232">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
