@@ -33,5 +33,5 @@ script:
   - cd client
   - npm install
   - ng build
-  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+  - npm run test -- --watch=false --no-progress --browsers=Chrome
 
