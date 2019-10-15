@@ -6,7 +6,7 @@ sudo: required
 
 language: node_js
 node_js:
-  - "12"
+  - "10"
 
 addons:
   apt:
@@ -31,6 +31,7 @@ before_script:
 
 script:
   - cd client
+  - npm install
   - ng build
-  - karma start config/karma.conf.js --single-run
+  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
 
