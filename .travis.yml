@@ -36,6 +36,5 @@ script:
   - npm run test -- --no-watch --no-progress --browsers=Chrome
   - cd ..
   - npm run test -- --no-watch --no-progress --browsers=Chrome
-  - ^C
 
 
