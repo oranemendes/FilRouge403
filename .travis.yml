@@ -34,6 +34,7 @@ script:
   - npm install
   - ng build
   - npm run test -- --no-watch --no-progress --browsers=Chrome
+  - ng test --no-watch --code-coverage
   - cd ..
   - npm run test -- --no-watch --no-progress --browsers=Chrome
 
