@@ -36,7 +36,7 @@ describe('NewHousePage', () => {
   }); */
 
 
-  describe('New House Page form', () => {
+/*  describe('New House Page form', () => {
     function creatForm() {
       this.form = this.formBuilder.group({
         city: new FormControl ('', Validators.compose([
@@ -82,7 +82,7 @@ describe('NewHousePage', () => {
       let city = component.form.controls.city;
       expect(city.valid).toBeFalsy();
     }); */
-  });
+
 
 
   // it('should create', () => {
