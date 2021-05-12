@@ -19,7 +19,7 @@
     "mysql": "^2.16.0",
     "node": "^11.15.0",
     "node-cron": "^2.0.3",
-    "nodemailer": "^4.6.8",
+    "nodemailer": "^6.4.16",
     "path": "^0.12.7",
     "randomstring": "^1.1.5",
     "read-file": "^0.2.0",
